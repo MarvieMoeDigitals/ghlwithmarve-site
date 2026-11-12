@@ -97,6 +97,7 @@ figcaption{font-size:.9rem;color:var(--muted)}
 .case-head a{color:var(--gold);font-weight:600}
 .shots.cs3 img{width:auto;max-width:100%}
 .videos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:32px}
+.videos.v2{grid-template-columns:repeat(2,minmax(0,1fr))}
 .vh{margin-top:48px;display:grid;gap:6px}
 .vh p{color:var(--muted)}
 
@@ -128,7 +129,7 @@ footer .wrap{padding-block:22px;border-top:1px solid #26366A}
 }
 @media (max-width:560px){
   .hero .wrap{grid-template-columns:minmax(0,1fr)}
-  .grid,.videos{grid-template-columns:minmax(0,1fr)}
+  .grid,.videos,.videos.v2{grid-template-columns:minmax(0,1fr)}
   .top nav{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -364,6 +365,46 @@ footer .wrap{padding-block:22px;border-top:1px solid #26366A}
       <figure><img src="cs4_enh_stats.jpg" alt="Enhancement funnel stats: 145 page views, 67 unique visitors, 20 opt-ins, 29.85% opt-in rate" loading="lazy"><figcaption>Enhancement funnel stats, Jan 1 to Nov 11, 2026</figcaption></figure>
     </div>
     <p style="margin-top:20px;font-size:.88rem;color:var(--muted)">Live pages and stats shared with the client's permission.</p>
+  </div>
+</section>
+
+<section id="automations">
+  <div class="wrap">
+    <div class="case-head">
+      <p class="eyebrow">Case study · Landscaping · Workflow automation</p>
+      <h2>The automation system behind those funnels</h2>
+      <p>A landing page only collects the lead. Behind A Cut Above's pages and phone line, I built five GoHighLevel workflows so every call and form gets an answer in minutes, the owners hear about it right away, and nobody is chased once they've moved forward.</p>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>426 leads</b><span>Sorted and followed up by the main lead intake workflow</span></div>
+      <div class="stat"><b>293 calls</b><span>Summarized by AI and emailed to the team automatically</span></div>
+      <div class="stat"><b>47 missed calls</b><span>Texted back within minutes instead of going to a competitor</span></div>
+    </div>
+
+    <div class="grid">
+      <div class="svc"><span class="tag">426 ENROLLED</span><h3>New lead intake</h3><p><b>Starts:</b> the free evaluation form, or a landscape design or lawn care tag.</p><p>Sorts each lead by the service they asked for, creates the opportunity, alerts the team, and sends a thank-you email and text. Other service leads who haven't booked get an appointment reminder after 24 hours. Design leads get an email every 2 days.</p></div>
+      <div class="svc"><span class="tag">293 ENROLLED</span><h3>AI call summaries</h3><p><b>Starts:</b> a call transcript is created for any call over 10 seconds.</p><p>AI summarizes the call, then the team gets one email with the caller's details and the summary. No one replays recordings or takes notes mid-call.</p></div>
+      <div class="svc"><span class="tag">51 ENROLLED</span><h3>Landscape Design pipeline</h3><p><b>Starts:</b> a lead enters or moves stage in the design pipeline.</p><p>New requests get an opportunity, an email and a team alert. After 2 days, a reply alerts the team and silence sends a reminder email. Contacted leads skip the follow-up.</p></div>
+      <div class="svc"><span class="tag">47 ENROLLED</span><h3>Missed-call text-back</h3><p><b>Starts:</b> an incoming call is missed or the line is busy.</p><p>Waits 2 minutes so it feels human, assigns the caller to a team member, tags them and texts them back. The team member gets a push notification and a text to call back.</p></div>
+      <div class="svc"><span class="tag">NEW · NOV 2026</span><h3>Leaf Removal quote follow-up</h3><p><b>Starts:</b> the leaf removal quote form.</p><p>Instant text and confirmation email, owner alerts by email and text, then follow-ups on day 1, 3 and 7. Each step checks the pipeline first, so it stops once the lead moves forward.</p></div>
+    </div>
+
+    <div class="vh">
+      <h3>Walkthroughs</h3>
+      <p>Each workflow in the GoHighLevel builder.</p>
+    </div>
+    <div class="videos">
+      <figure><video controls playsinline preload="none" poster="wf_leadintake_poster.jpg" src="wf_leadintake.mp4"></video><figcaption>New lead intake</figcaption></figure>
+      <figure><video controls playsinline preload="none" poster="wf_calltranscript_poster.jpg" src="wf_calltranscript.mp4"></video><figcaption>AI call summaries</figcaption></figure>
+      <figure><video controls playsinline preload="none" poster="wf_landscaping_poster.jpg" src="wf_landscaping.mp4"></video><figcaption>Landscape Design pipeline</figcaption></figure>
+      <figure><video controls playsinline preload="none" poster="wf_missedcall_poster.jpg" src="wf_missedcall.mp4"></video><figcaption>Missed-call text-back</figcaption></figure>
+      <figure><video controls playsinline preload="none" poster="wf_leaf_poster.jpg" src="wf_leaf.mp4"></video><figcaption>Leaf Removal quote follow-up</figcaption></figure>
+    </div>
+    <div class="shots" style="grid-template-columns:minmax(0,1fr);margin-top:24px">
+      <figure><img src="wf_landscaping_log.jpg" alt="Execution log showing the Landscape Design workflow running for a new lead" loading="lazy"><figcaption>Execution log from a real lead on Nov 11: branch, opportunity, email and team alert run within 6 seconds (contact details hidden)</figcaption></figure>
+    </div>
+    <p style="margin-top:20px;font-size:.88rem;color:var(--muted)">Shared with the client's permission. Contact names are hidden.</p>
   </div>
 </section>
 
